@@ -1,5 +1,5 @@
 ---
-title: Neural Network Backflow Transformation - Exploring the method
+title: Exploring Neural Network Backflow Transformation
 date: 2023-11-08
 layout: post
 author: Shruti
