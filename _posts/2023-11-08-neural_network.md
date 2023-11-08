@@ -12,6 +12,6 @@ I came across a paper during a seminar where the speaker/author used "Backflow T
 ## Objective (for ref. article):
 Drawing a rough picture(first draft) of the method (NNB) proposed in the article.
 
-### Possible ways to further the study
-* Approach the authors with the doubts to get clearer understanding
+### <ins> Possible ways to further the study </ins>
+* Approach the authors with doubts to get a clearer understanding
 
