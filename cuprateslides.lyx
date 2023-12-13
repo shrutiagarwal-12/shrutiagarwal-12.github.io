@@ -1,0 +1,1309 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 1 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Cuprates and Stripes
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Stripes and Cuprates
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+using Hubbard Model
+\end_layout
+
+\begin_layout Author
+Shruti Agarwal
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+S.
+ Agarwal
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Institute
+University of Tennessee, Knoxville
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+UTK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+12th December, 2023
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+12/12/23
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout TitleGraphic
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/shruti/Downloads/hub_model.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Objective
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Looking for the effects of electron-phonon coupling on the physics of stripes
+ seen in Hubbard model for square lattice in 2D designed for Cuprates.
+ 
+\end_layout
+
+\begin_layout Itemize
+Modelling the coupling using bond-SSH mechanism.
+ 
+\end_layout
+
+\begin_layout Itemize
+In future, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+plan to execute more “physical” mechanism, namely, optical-SSH; 
+\end_layout
+
+\begin_layout Itemize
+looking for the possible similarities and differences with the results obtained
+ from Holstein mechanism.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hubbard model on 2D square lattice with nearest and next nearest neighbour
+ hopping.
+\end_layout
+
+\begin_layout Itemize
+Adding bond SSH coupling.
+\begin_inset Formula $equation$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+\begin_inset Formula $equation$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relationship between 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Working in hole doped regime.
+ For starters, going till 
+\begin_inset Formula $p=0.2$
+\end_inset
+
+ and point of interest around 
+\begin_inset Formula $p=0.125$
+\end_inset
+
+ due to ...
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assesment of sign for different temperature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/sign_vs_T.pdf
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1a.
+ $
+\backslash
+langle sign 
+\backslash
+rangle$ vs $T$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/n_vs_T.pdf
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+1b.
+ $
+\backslash
+langle n 
+\backslash
+rangle$ vs $T$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+NOTES: To check the limit on lower value of T, note: with varying T, important
+ to keep <n> constant.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+$
+\backslash
+langle n 
+\backslash
+rangle = 0.875, U = 6, t' = -0.25, t = 1$, 
+\backslash
+
+\backslash
+ varying $T$ to check $
+\backslash
+langle$sign$
+\backslash
+rangle$ for a set of $
+\backslash
+lambda$ values set by $
+\backslash
+alpha$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Is Mott gap decreasing?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/n_vs_mu.pdf
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+langle n 
+\backslash
+rangle$ vs $
+\backslash
+mu$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Initial assessment of Mott gap by looking at n vs $
+\backslash
+mu$ curve.
+ The trend of slope increasing with increasing $
+\backslash
+lambda$ indicates that the mott gap is decreasing.
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{Parameters used:} 
+\backslash
+small{$
+\backslash
+beta = 3.5$ others are same as before.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/sign_vs_mu.pdf
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/HubbardbSSH/sign_vs_n_new.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size footnotesize
+The sign gets worse very quickly as move away from half filling.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+Same distribution of chemical potential used for varying coupling strength
+ to evaluate filling fraction.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+The denser the peak at half filling, more number of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu$
+\end_layout
+
+\end_inset
+
+ points near half filling, meaning larger the gap.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+c{
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lambda$
+\end_layout
+
+\end_inset
+
+} (e.g., c0) counts such number within indicated upper and lower bounds and
+ it again indicates decrease in Mott gap.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size footnotesize
+This is not so evident from 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+mu$ 
+\end_layout
+
+\end_inset
+
+vs sign scan.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Structure factor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Direct look at the spin 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$S(
+\backslash
+textbf{Q},
+\backslash
+omega=0)$
+\end_layout
+
+\end_inset
+
+ and charge density 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$N(
+\backslash
+textbf{Q},
+\backslash
+omega=0)$
+\end_layout
+
+\end_inset
+
+ structure factor calculated for varying 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Frame
+SDW for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$q = (
+\backslash
+pi/a, 
+\backslash
+pi/a)$ 
+\end_layout
+
+\end_inset
+
+ are found suppresed.
+ As an example, 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/shruti/Downloads/figure.pdf
+	width 55text%
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Spin structure factor along 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$(q_x, q_y=
+\backslash
+pi/a)$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+\begin_inset Formula $N(\mathbf{Q,}\omega=0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+For the charge density wave, however the location of maxima shifts from
+ 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ to 
+\begin_inset Formula $(\pi/a,\pi/a)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.p0.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.12p0.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.19p0.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.27p0.1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Formula $p=0.1,\beta=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Studying Mott Gap
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $G(\mathbf{r=0},\tau=\beta/2)$
+\end_inset
+
+ gives the spectral weigh near fermi energy (
+\begin_inset Formula $\mu$
+\end_inset
+
+ at 
+\begin_inset Formula $T\neq0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $G(\mathbf{r=0},\tau)$
+\end_inset
+
+ records the cumulative spectral weighs over an energy range depending on
+ 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $G(\mathbf{k},\tau)$
+\end_inset
+
+ projects this on 
+\begin_inset Formula $\mathbf{k}$
+\end_inset
+
+-space, and with the model being single band, each 
+\begin_inset Formula $\mathbf{k}$
+\end_inset
+
+ hosts non-degenerate single particle eigenstate.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $G(\mathbf{k},\tau=0^{-})=1-\langle n_{\mathbf{k}}\rangle$
+\end_inset
+
+, recording 
+\begin_inset Formula $\langle n_{\mathbf{k}}\rangle$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/gr0taup0.125.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/g0beta_2_pax.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Both tell us that the states near fermi energy are moving away.
+ 
+\end_layout
+
+\begin_layout Frame
+To see clearer on what is happening, looking at
+\begin_inset Formula $\langle n_{\mathbf{k}}\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
