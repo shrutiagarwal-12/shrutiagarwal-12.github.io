@@ -634,10 +634,6 @@ status open
 \end_inset
 
 
-\begin_inset space \hfill{}
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -648,7 +644,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45text%"
+width "45col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -1274,6 +1270,19 @@ Both tell us that the states near fermi energy are moving away.
 \end_layout
 
 \begin_layout Frame
+The former graph also indicates increase in Mott gap, contrary to what we
+ (think) we see earlier in 
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+ vs 
+\begin_inset Formula $\mu$
+\end_inset
+
+ graph.
+\end_layout
+
+\begin_layout Frame
 To see clearer on what is happening, looking at
 \begin_inset Formula $\langle n_{\mathbf{k}}\rangle$
 \end_inset
@@ -1303,6 +1312,374 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/nSSHH/square/square_nk_a0.0_p0.125.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/nSSHH/square/square_nk_a0.27_p0.125.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/nSSHH/square/square_nk_betaby2_a0.0_p0.125.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/nSSHH/square/square_nk_betaby2_a0.27_p0.125.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size scriptsize
+where, 
+\begin_inset Formula $\langle n_{\mathbf{k}}\rangle=G(\mathbf{k},\tau=\beta/2)$
+\end_inset
+
+ captures the spectral weigh near fermi energy, making it clearer to see
+ the fermi surface(FS).
+ 
+\end_layout
+
+\begin_layout Frame
+
+\size small
+Fermi surface(FS) appears to sharpen.
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Hypothesis: 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+With Mott gap reducing and the FS sharpening, U might e effectively reducing.
+\end_layout
+
+\begin_layout Frame
+
+\size small
+(This has been already seen in Hubb-Holstein model) 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\series bold
+\bar under
+Ideas to check this?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Looking for compressibility, 
+\begin_inset Formula $\kappa(=\partial\langle n\rangle/\partial\mu)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Direct comparison of ...(results) between low U, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lambda=0$
+\end_layout
+
+\end_inset
+
+ and high U with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$
+\backslash
+lambda 
+\backslash
+neq 0$
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Comparison with the weak-coupling physics, RPA limit results.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Compressibility
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+With increasing 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, I find that 
+\begin_inset Formula $\mu$
+\end_inset
+
+ required to fix specific 
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+(let us say, 0.8) shifts away from 0, and 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ reduces as well, implying the rate at which 
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+is changing w.r.t 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is slowing down(slower the rate, lower the number of states).
+ 
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+Both of these lead to the conclusion that the Mott gap is increasing with
+ e-ph coupling.
 \end_layout
 
 \end_body
