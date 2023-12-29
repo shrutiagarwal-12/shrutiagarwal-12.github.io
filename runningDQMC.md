@@ -17,3 +17,5 @@ electron-phonon interactions. For now, I am referring to the example
 code written by Ben and modifying it to accomodate desired lattice,
 orbital and type of lattice interaction. The example file is designed to
 take input directly from the terminal.
+
+_I am stopping here as I realise the original documentation suffices and this document serves fulfills no different purpose._
