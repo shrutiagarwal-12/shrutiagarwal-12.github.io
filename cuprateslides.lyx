@@ -538,7 +538,11 @@ status open
 
 \begin_layout Plain Layout
 
-Initial assessment of Mott gap by looking at n vs $
+Initial assessment of Mott gap by looking at $
+\backslash
+langle n 
+\backslash
+rangle$ vs $
 \backslash
 mu$ curve.
  The trend of slope increasing with increasing $
@@ -1680,6 +1684,212 @@ is changing w.r.t
 \begin_layout Frame
 Both of these lead to the conclusion that the Mott gap is increasing with
  e-ph coupling.
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Looking closely at the data of 
+\begin_inset Formula $\langle n\rangle,\kappa$
+\end_inset
+
+ with varying 
+\begin_inset Formula $\mu$
+\end_inset
+
+, closer to half-filling, let us say ~1.004 or ~0.997 as the filling, 
+\begin_inset Formula $\kappa$
+\end_inset
+
+increases with both fixed 
+\begin_inset Formula $\mu$
+\end_inset
+
+ or 
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+ for increasing 
+\begin_inset Formula $\alpha$
+\end_inset
+
+; hinting decrease in Mott gap.
+\end_layout
+
+\begin_layout Itemize
+On the other hand, the rough 
+\begin_inset Formula $\mu$
+\end_inset
+
+ range for 
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+ to change from ~1.008 to ~ 0.997, the interval shifts toward lower values
+ of 
+\begin_inset Formula $\mu$
+\end_inset
+
+ but stay roughly same ~ 0.25 - 0.3.
+ 
+\end_layout
+
+\begin_layout Itemize
+It should be noted that for this part of the analysis, better data is needed
+ to conclude the statement with more confidence as the range interval has
+ pattern of [0.3, 0.25, 0.25, 0.3] for [0,0.12,0.19,0.27] as 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ values.
+ More number of alpha points and more number of 
+\begin_inset Formula $\mu$
+\end_inset
+
+ points are needed at 
+\begin_inset Formula $\langle n\rangle\sim1$
+\end_inset
+
+(there were mostly 3-4 points).
+ 
+\end_layout
+
+\begin_layout Itemize
+IDEA : Fine tune 
+\begin_inset Formula $\langle n\rangle-\mu$
+\end_inset
+
+ map by running calc.
+ for denser set of 
+\begin_inset Formula $\mu$
+\end_inset
+
+ points.
+ Result?
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Result
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename backup/Cuprates_and_stripes/HubbardbSSH/n_vs_mu_mott_gap.pdf
+	width 50theight%
+	height 50theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+ vs 
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+This shows much clearly and conclusively that the gap is reducing.
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+ range interval for 
+\begin_inset Formula $0.995<\langle n\rangle<1.005$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Frame
+As we move away from 
+\begin_inset Formula $\langle n\rangle=0.99$
+\end_inset
+
+,
+\begin_inset Formula $\langle n\rangle$
+\end_inset
+
+ drops drastically, hinting this is very close to Mott gap.
+\end_layout
+
+\begin_layout Frame
+For further concrete comments, however, we need to look at DOS.
+ >>> Analytic Contiuation!
 \end_layout
 
 \end_body
