@@ -1,0 +1,1102 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+
+\setbeamertemplate{footline}{%
+  \hfill\insertframenumber\hspace*{2em}\vskip2pt%
+}
+\end_preamble
+\options aspectratio=169
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\bullet 0 1 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Effects of e-ph coupling on stripes in 2D Hubbard model
+\end_layout
+
+\begin_layout Author
+Shruti Agarwal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Benjamin Cohen-Stead 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Steve Johnston
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+S.
+ Agarwal, B.
+ C.
+ Stead, S.
+ Johnston
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Institute
+University of Tennessee, Knoxville
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+UTK
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+ Institute of Advanced Materials and Manufacturing (IAMM), Knoxville
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+(IAMM)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+06 March, 2024
+\end_layout
+
+\begin_layout TitleGraphic
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Downloads/DOE_Color_Seal_Green_Logo_Clear_2860×719.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Downloads/University-HorizRightLogo-RGB.webp
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What am I doing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/phase_diagram.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%Est: 1.5 min
+\end_layout
+
+\begin_layout Plain Layout
+
+%Prepare this slide and then see:  mention on looking in q-space instead
+ of r-space
+\end_layout
+
+\begin_layout Plain Layout
+
+% Hamiltonian(?), single band model...
+ maybe just mention single band, no need to explain
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/neutron_scattering_Tranquada_1995.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size footnotesize
+Exp.
+ peaks for SDW and CDW vs T 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size tiny
+Tranquada, J.
+ et al, Nature 375, 561–563 (1995)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+https://doi.org/10.1038/375561a0
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/Edwin_hubbard_result_spin_cdw_intensity.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size footnotesize
+Spin & Charge stripp intensities: Hubbard Model 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size tiny
+Edwin W.
+ Hang et al, PRB107, 085126
+\size footnotesize
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size tiny
+https://doi.org/10.1103/PhysRevB.107.085126
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%Put the Reference https://doi.org/10.1103/PhysRevB.107.085126: hubbard
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Our proposal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "33col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/e_kink_modify.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size footnotesize
+Kink due to e-ph coupling
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size tiny
+A.
+ Lanzara, Nature volume 412, pages 510–514 (2001)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size tiny
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+https://doi.org/10.1038/35087518
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "33col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+b-SSH model demonstration/animation
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "33col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\size small
+e-ph coupling affect the results [reference to at least two papers].
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+In cuprates,
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $t\sim0.3\text{ eV}=300\text{meV}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Omega\sim70-100\text{ meV}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\therefore\Omega(\text{max})\approx t/3=0.3t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Omega=t/2=200\text{meV}$
+\end_inset
+
+
+\size small
+: still very high, lower
+\size default
+ 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ 
+\size small
+unexplored.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+Using SmoQyDQMC.jl, now we can.
+ See ...
+ for further details.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%%% using realistic freq to investigate using exact unbiased method - DQMC)
+\end_layout
+
+\begin_layout Plain Layout
+
+%*How is this different - these freq are accessible to us, and is now publicly
+ available
+\end_layout
+
+\begin_layout Plain Layout
+
+%*further detaill refer to Ben's talk - Same day at 3:00 pm
+\end_layout
+
+\begin_layout Plain Layout
+
+%Est: 2.5 min 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%Prepare this slide and then see
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Preliminary result
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+(plots of chi_c:enhancement and shift of maxima and chi_S:suppression)
+\end_layout
+
+\begin_layout Frame
+(del_C and del_S graph)
+\end_layout
+
+\begin_layout Frame
+(? : refer to charge overdoped paper for shift of maxima found there as
+ well) 
+\end_layout
+
+\begin_layout Frame
+Est: 1.5 min
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+...more on results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+(pseudo gap result - for bond) 
+\end_layout
+
+\begin_layout Frame
+(Time to mention the caveat for modelling using b-SSH - Sohan's paper)
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+Est: 1 min
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+...investigation is going on/caveat
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+(Increase in bandwidth - contraction of band in b-SSH.)
+\end_layout
+
+\begin_layout Frame
+conclusion - long story short..(no need of another slide, just say it),
+\end_layout
+
+\begin_layout Frame
+work on T=0 needed, encouraged,
+\end_layout
+
+\begin_layout Frame
+suppersion(enhancement) of SDW(CDW) is clearly there.
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+Est: 2 min
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Acknowledgements (*thank you as well)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+(acknowledge Ben, Steve, funding)
+\end_layout
+
+\begin_layout Frame
+(same or new slide for thank you)
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Back-up slides / potential content; formatting
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+<sign> vs Beta
+\end_layout
+
+\begin_layout Frame
+caveat of sign switching wth optical model
+\end_layout
+
+\begin_layout Frame
+Why SSH not Holstein -(high Tc mech - ref)
+\end_layout
+
+\begin_layout Frame
+Why p=1/8
+\end_layout
+
+\begin_layout Frame
+decrease of Mott gap
+\end_layout
+
+\begin_layout Frame
+del_C and del_S analysis
+\end_layout
+
+\begin_layout Frame
+maybe work on correlation length analysis on my data, see what is happening
+\end_layout
+
+\begin_layout Frame
+correlation length plot for SDW and CDW
+\end_layout
+
+\begin_layout Frame
+(e-ph results motivating more study) - wrong frequencies; so far papers
+ on these
+\end_layout
+
+\begin_layout Frame
+keep focused on bond
+\end_layout
+
+\begin_layout Frame
+What can be 
+\begin_inset Quotes eld
+\end_inset
+
+intuitively
+\begin_inset Quotes erd
+\end_inset
+
+ wrong when looking for very high 
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+Funding acknowledgement statement?
+\end_layout
+
+\begin_layout Frame
+(
+\backslash
+setbeamertemplate{footline}{ 
+\backslash
+leavevmode% 
+\backslash
+hbox{% 
+\backslash
+begin{beamercolorbox}[wd=.5
+\backslash
+paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}% 
+\backslash
+usebeamerfont{author in head/foot}
+\backslash
+hspace*{2em}APS March Meeting 2024% 
+\backslash
+end{beamercolorbox}% 
+\backslash
+begin{beamercolorbox}[wd=.5
+\backslash
+paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}% 
+\backslash
+usebeamerfont{date in head/foot}
+\backslash
+insertframenumber{} / 
+\backslash
+inserttotalframenumber
+\backslash
+hspace*{2em} 
+\backslash
+end{beamercolorbox}}% 
+\backslash
+vskip0pt% })
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\end_body
+\end_document
