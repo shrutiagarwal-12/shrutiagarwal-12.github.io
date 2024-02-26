@@ -181,10 +181,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -212,6 +208,13 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+*This work is supported by the U.S.
+ Department of Energy, under award DE-SC0022311
 \end_layout
 
 \end_inset
@@ -243,7 +246,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename /Users/shruti/Downloads/University-HorizRightLogo-RGB.webp
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -281,7 +284,7 @@ What am I doing
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -383,7 +386,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -407,7 +410,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
 
 \backslash
 
@@ -426,7 +428,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size scriptsize
 
 \backslash
 
@@ -462,7 +463,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -478,13 +479,12 @@ status open
 \align center
 
 \size footnotesize
-Spin & Charge stripp intensities: Hubbard Model 
+Spin & Charge stripe intensities: Hubbard Model 
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
 
 \backslash
 
@@ -497,7 +497,7 @@ status open
 
 \size tiny
 Edwin W.
- Hang et al, PRB107, 085126
+ Huang et al, PRB107, 085126
 \size footnotesize
 
 \begin_inset ERT
@@ -505,7 +505,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
 
 \backslash
 
@@ -578,7 +577,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "33col%"
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -587,7 +586,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -601,6 +600,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\paragraph_spacing other 0.7
 \align center
 
 \size footnotesize
@@ -610,7 +610,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
 
 \backslash
 
@@ -623,23 +622,7 @@ status open
 
 \size tiny
 A.
- Lanzara, Nature volume 412, pages 510–514 (2001)
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-\size tiny
-
-\backslash
-
-\backslash
-
-\end_layout
-
-\end_inset
-
-https://doi.org/10.1038/35087518
+ Lanzara, Nature volume 412, 510–514 (2001)
 \end_layout
 
 \end_inset
@@ -656,7 +639,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "33col%"
+width "70col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -669,16 +652,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-b-SSH model demonstration/animation
-\end_layout
-
-\end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -686,37 +659,81 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "33col%"
+width "100col%"
 special "none"
-height "1in"
-height_special "totalheight"
+height "65pheight%"
+height_special "none"
 thickness "0.4pt"
 separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/bSSHmotivation.png
+	width 100col%
 
-\size small
-e-ph coupling affect the results [reference to at least two papers].
-\end_layout
-
-\begin_layout Plain Layout
-
-\size small
-In cuprates,
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $t\sim0.3\text{ eV}=300\text{meV}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Plain Layout
+\paragraph_spacing other 0.7
+\align left
+
+\size scriptsize
+O(red) motion affecting t for Cu-Cu(yellow).
+
+\size tiny
+ Newns, D., Tsuei, C., Nature 3, 184–191 (2007)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "20pheight%"
+height_special "none"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.7
+\noindent
+
+\size footnotesize
+In cuprates,
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.7
+\noindent
+
+\size footnotesize
+\begin_inset Formula $t\sim0.3\text{ eV}=300\text{meV}$
+\end_inset
+
+; 
 \begin_inset Formula $\Omega\sim70-100\text{ meV}$
 \end_inset
 
@@ -724,6 +741,10 @@ In cuprates,
 \end_layout
 
 \begin_layout Plain Layout
+\paragraph_spacing other 0.7
+\noindent
+
+\size footnotesize
 \begin_inset Formula $\therefore\Omega(\text{max})\approx t/3=0.3t$
 \end_inset
 
@@ -731,28 +752,18 @@ In cuprates,
 \end_layout
 
 \begin_layout Plain Layout
+\paragraph_spacing other 0.7
+\noindent
+
+\size footnotesize
 \begin_inset Formula $\Omega=t/2=200\text{meV}$
 \end_inset
 
-
-\size small
-: still very high, lower
-\size default
- 
+: still very high, lower 
 \begin_inset Formula $\Omega$
 \end_inset
 
- 
-\size small
-unexplored.
-\end_layout
-
-\begin_layout Plain Layout
-
-\size small
-Using SmoQyDQMC.jl, now we can.
- See ...
- for further details.
+ unexplored.
 \end_layout
 
 \end_inset
@@ -760,7 +771,8 @@ Using SmoQyDQMC.jl, now we can.
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
@@ -796,6 +808,7 @@ status open
 
 \begin_layout Plain Layout
 
+% Using 
 \end_layout
 
 \begin_layout Plain Layout
@@ -805,14 +818,21 @@ status open
 
 \begin_layout Plain Layout
 
+% https://doi.org/10.1038/nphys542 
+\end_layout
+
+\begin_layout Plain Layout
+
+% Above is the doi for the borrowed animation
+\end_layout
+
+\begin_layout Plain Layout
+
+% e-ph coupling kink doi: https://doi.org/10.1038/35087518
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -828,7 +848,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Preliminary result
+Results
 \end_layout
 
 \end_inset
@@ -837,20 +857,285 @@ Preliminary result
 \end_layout
 
 \begin_layout Frame
-(plots of chi_c:enhancement and shift of maxima and chi_S:suppression)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "40theight%"
+height_special "none"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/hamiltonian_eqn.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "45pheight%"
+height_special "none"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/jupyter_notebooks/chi_s_n0.85.png
+	height 40theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
-(del_C and del_S graph)
+
 \end_layout
 
 \begin_layout Frame
-(? : refer to charge overdoped paper for shift of maxima found there as
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "40pheight%"
+height_special "none"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.19p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/a0.27p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\size scriptsize
+*errorbars in the plots are 
+\begin_inset Formula $2\sigma$
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size tiny
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+systems simulated using SmoQyDQMC.jl, see talk by Benjamin [ref]) 
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%plots of chi_c:enhancement and shift of maxima and chi_S:suppression
+\end_layout
+
+\begin_layout Plain Layout
+
+%(del_C and del_S graph)
+\end_layout
+
+\begin_layout Plain Layout
+
+%(? : refer to charge overdoped paper for shift of maxima found there as
  well) 
 \end_layout
 
-\begin_layout Frame
-Est: 1.5 min
+\begin_layout Plain Layout
+
+%Est: 1.5 min
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -865,7 +1150,7 @@ Est: 1.5 min
 status open
 
 \begin_layout Plain Layout
-...more on results
+Results
 \end_layout
 
 \end_inset
@@ -874,19 +1159,184 @@ status open
 \end_layout
 
 \begin_layout Frame
-(pseudo gap result - for bond) 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/n_ky0_p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/n_ky1_p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/figures/n_ky0.5_p0.15.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
-(Time to mention the caveat for modelling using b-SSH - Sohan's paper)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% During practise, see if we can/want to accomodate G(
+\backslash
+tau=beta/2) to show the fall in spectral weigh yet 
+\begin_inset Quotes eld
+\end_inset
+
+decreasing
+\begin_inset Quotes erd
+\end_inset
+
+ (from n vs 
+\backslash
+mu) mott gap.
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
 
+\size scriptsize
+*errorbars in the plots are 
+\begin_inset Formula $2\sigma$
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\size tiny
+
+\backslash
+
+\backslash
+
 \end_layout
 
-\begin_layout Frame
-Est: 1 min
+\end_inset
+
+systems simulated using SmoQyDQMC.jl, see talk by Benjamin [ref]) 
 \end_layout
 
 \begin_layout Standard
@@ -901,7 +1351,7 @@ Est: 1 min
 status open
 
 \begin_layout Plain Layout
-...investigation is going on/caveat
+Caveat
 \end_layout
 
 \end_inset
@@ -910,27 +1360,150 @@ status open
 \end_layout
 
 \begin_layout Frame
-(Increase in bandwidth - contraction of band in b-SSH.)
+Phonons on the bonds 
+\begin_inset Formula $\implies$
+\end_inset
+
+
+\begin_inset Formula $\langle\hat{X}\rangle\neq0$
+\end_inset
+
+; bonds contract 
+\size tiny
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+S.
+ Malkaruge Costa et.
+ al, Phys.
+ Rev.
+ B 108, 165138
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+https://doi.org/10.1103/PhysRevB.108.165138
 \end_layout
 
 \begin_layout Frame
-conclusion - long story short..(no need of another slide, just say it),
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/spectral_function_compare_n0.95_binned_nω401_allwalkers.png
+	height 65theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
-work on T=0 needed, encouraged,
-\end_layout
-
-\begin_layout Frame
-suppersion(enhancement) of SDW(CDW) is clearly there.
-\end_layout
-
-\begin_layout Frame
 
 \end_layout
 
 \begin_layout Frame
-Est: 2 min
+Nevertheless, 
+\series bold
+suppression(enhancement) 
+\series default
+of SDW(CDW) warrants further investigation, esp, 
+\begin_inset Formula $T=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\size scriptsize
+*Spectral function computed using SmoQyDEAC.jl (see talk by James[R])
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%(Increase in bandwidth - contraction of band in b-SSH.)
+\end_layout
+
+\begin_layout Plain Layout
+
+%conclusion - long story short..(no need of another slide, just say it),
+\end_layout
+
+\begin_layout Plain Layout
+
+%work on T=0 needed, encouraged,
+\end_layout
+
+\begin_layout Plain Layout
+
+%suppersion(enhancement) of SDW(CDW) is clearly there.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%Est: 2 min
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -945,7 +1518,7 @@ Est: 2 min
 status open
 
 \begin_layout Plain Layout
-Acknowledgements (*thank you as well)
+Acknowledgements/Q&A 
 \end_layout
 
 \end_inset
@@ -954,15 +1527,256 @@ Acknowledgements (*thank you as well)
 \end_layout
 
 \begin_layout Frame
-(acknowledge Ben, Steve, funding)
-\end_layout
 
-\begin_layout Frame
-(same or new slide for thank you)
 \end_layout
 
 \begin_layout Frame
 
+\end_layout
+
+\begin_layout Frame
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "25col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/Ben.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size small
+Dr.
+ Benjamin Cohen-Stead, UTK
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "25col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/steve.jpg
+	width 85col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size small
+Prof.
+ Steve Johnston, UTK
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "25col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/DEO_square.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "25col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/shruti/Desktop/reference_figures/uticon.webp
+	width 110col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size large
+\begin_inset Flex Emphasize
+status open
+
+\begin_layout Plain Layout
+
+\size large
+THANK YOU!
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset Flex Bold
+status open
+
+\begin_layout Plain Layout
+Questions?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size tiny
+This work is supported by the U.S.
+ Department of Energy, under award DE-SC0022311.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+The End
 \end_layout
 
 \begin_layout Standard
@@ -990,7 +1804,9 @@ Back-up slides / potential content; formatting
 \end_layout
 
 \begin_layout Frame
-caveat of sign switching wth optical model
+
+\backslash
+mu vs <n>
 \end_layout
 
 \begin_layout Frame
@@ -1018,15 +1834,6 @@ correlation length plot for SDW and CDW
 \end_layout
 
 \begin_layout Frame
-(e-ph results motivating more study) - wrong frequencies; so far papers
- on these
-\end_layout
-
-\begin_layout Frame
-keep focused on bond
-\end_layout
-
-\begin_layout Frame
 What can be 
 \begin_inset Quotes eld
 \end_inset
@@ -1046,55 +1853,41 @@ intuitively
 
 \end_layout
 
-\begin_layout Frame
-Funding acknowledgement statement?
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
 \end_layout
 
-\begin_layout Frame
-(
+\end_inset
+
+
+\begin_inset Formula $\mathcal{H}=\mathcal{H}_{e}+\mathcal{H}_{ph}+\mathcal{H}_{e-ph}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-setbeamertemplate{footline}{ 
+
 \backslash
-leavevmode% 
-\backslash
-hbox{% 
-\backslash
-begin{beamercolorbox}[wd=.5
-\backslash
-paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}% 
-\backslash
-usebeamerfont{author in head/foot}
-\backslash
-hspace*{2em}APS March Meeting 2024% 
-\backslash
-end{beamercolorbox}% 
-\backslash
-begin{beamercolorbox}[wd=.5
-\backslash
-paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}% 
-\backslash
-usebeamerfont{date in head/foot}
-\backslash
-insertframenumber{} / 
-\backslash
-inserttotalframenumber
-\backslash
-hspace*{2em} 
-\backslash
-end{beamercolorbox}}% 
-\backslash
-vskip0pt% })
+%
 \end_layout
 
-\begin_layout Frame
+\end_inset
 
-\end_layout
 
-\begin_layout Frame
+\begin_inset Formula $\mathcal{H}_{e-ph}=\alpha\Sigma_{i,j,\nu}X_{i,\nu}c_{i}^{\dagger}c_{j}$
+\end_inset
 
-\end_layout
-
-\begin_layout Frame
 
 \end_layout
 
